@@ -5,6 +5,8 @@ import "./App.css";
 import Footer from "./components/Footer";
 import SideNav from "./components/SideNav";
 import PlayerStats from "./components/PlayerStats"
+import FindPlayers from "./components/FindPlayers";
+import Tournament from "./Tournament";
 
 class App extends Component {
   render() {
@@ -14,7 +16,9 @@ class App extends Component {
           <div className="col-sm-8">
             <Header />
             {/* <Home /> */}
-            <PlayerStats />
+            {/* <PlayerStats /> */}
+            {/* <FindPlayers /> */}
+            <Tournament />
             <Footer />
           </div>
           <div className="col-sm-4 text-center">
