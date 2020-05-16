@@ -1,0 +1,49 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, .card-body>h5 {
+  font-family: 'Balsamiq Sans', cursive;
+}
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right top, #429857, #39904a, #30873d, #277f2f, #1d7720, #1b7b22, #187f23, #158325, #189438, #1aa64b, #19b85e, #16cb72);
+  color: white;
+}
+.page-enter {
+  opacity: 0;
+}
+
+.page-enter-active {
+  opacity: 1;
+  transition: 300ms ease-in;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: 300ms ease-out;
+}
+.side {
+  background-color: burlywood;
+}
+
+.side-nav{
+  background-image: linear-gradient(to right top, #429857, #39904a, #30873d, #277f2f, #1d7720, #1b7b22, #187f23, #158325, #189438, #1aa64b, #19b85e, #16cb72);
+}
+.sideBox {
+  height: 33%;
+}
+
+.header{
+  background-image: linear-gradient(to right top, #429857, #39904a, #30873d, #277f2f, #1d7720, #1b7b22, #187f23, #158325, #189438, #1aa64b, #19b85e, #16cb72);
+
+}
+.chips {
+  width: 500px;
+}
