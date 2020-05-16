@@ -3,6 +3,7 @@ import { Button } from "reactstrap";
 import SimpleTable from "./SimpleTable";
 import NestedList from "./NestedList";
 import MediaCard from "./MediaCard";
+import {  Link } from 'react-router-dom';
 
 class SideNav extends Component {
   render() {
@@ -11,9 +12,11 @@ class SideNav extends Component {
       <div className="row">
           <div className="col">
             <h3 className="text-center">Home</h3>
+            
             <Button className="mt-2 w-100 btn btn-danger"> Register</Button>
             <Button className="mt-2 w-100 btn btn-success"> Login</Button>
-            <Button className="my-2 w-100 btn btn-warning"> Home Page</Button>
+            <Link to="/Home" className="btn btn-info my-2 w-100">Home Page</Link>
+
 
           </div>
         </div>
@@ -23,7 +26,8 @@ class SideNav extends Component {
             <div className="table-data">
               <SimpleTable />
             </div>
-            <Button className="mt-2 w-100 btn btn-danger"> View More</Button>
+            <Link to="/PlayerStats" className="btn btn-lg btn-info my-2">View More</Link>
+
           </div>
         </div>
         <div className="row">
@@ -32,7 +36,7 @@ class SideNav extends Component {
             <div className="player-list">
               <NestedList />
             </div>
-            <Button className="mt-2 w-100 btn btn-danger"> View More</Button>
+            <Link to="/FindPlayers" className="btn btn-lg btn-warning my-2">View More</Link>
           </div>
         </div>
         <div className="row">
