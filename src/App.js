@@ -24,13 +24,9 @@ class App extends Component {
                 <Route path='/PlayerStats' component={PlayerStats} />
                 <Route path='/FindPlayers' component={FindPlayers} />
                 <Route path='/Tournament' component={Tournament} />
-
-                {/* <Home /> */}
-                {/* <PlayerStats /> */}
-                {/* <FindPlayers /> */}
-                <Tournament />
-                <Footer />
               </Switch>
+              <Footer />
+
             </div>
             <div className="col-sm-4 text-center">
               <SideNav />

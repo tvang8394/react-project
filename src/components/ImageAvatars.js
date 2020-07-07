@@ -23,13 +23,13 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ImageAvatars() {
+export default function ImageAvatars(props) {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
       <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" className={classes.large} />
-      <h4>Player Status</h4>
+      <h4>{props.name}</h4>
     </div>
   );
 }

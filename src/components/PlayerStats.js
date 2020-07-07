@@ -7,10 +7,11 @@ class PlayerStats extends Component {
   render() {
     return (
       <div className="col">
-        <ImageAvatar />
+        <ImageAvatar name="Player Status"/>
         <CustomizedTables />
-        <ImageAvatar />
-        <MatchHistory />
+        <ImageAvatar name="Match History"/>
+        <MatchHistory name="Roger Federer"/>
+        <MatchHistory name="Rafael Nadal"/>
       </div>
     );
   }

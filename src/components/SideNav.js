@@ -26,7 +26,7 @@ class SideNav extends Component {
             <div className="table-data">
               <SimpleTable />
             </div>
-            <Link to="/PlayerStats" className="btn btn-lg btn-info my-2">View More</Link>
+            <Link to="/PlayerStats" className="btn btn-lg btn-info my-2">More Stats</Link>
 
           </div>
         </div>
@@ -36,7 +36,7 @@ class SideNav extends Component {
             <div className="player-list">
               <NestedList />
             </div>
-            <Link to="/FindPlayers" className="btn btn-lg btn-warning my-2">View More</Link>
+            <Link to="/FindPlayers" className="btn btn-lg btn-warning my-2">Find More</Link>
           </div>
         </div>
         <div className="row">
@@ -45,7 +45,10 @@ class SideNav extends Component {
           </div>
           <div className="chips mx-auto">
             <MediaCard />
+            <Link to="/Tournament" className="btn btn-lg btn-danger my-2">View More</Link>
+
           </div>
+
           <div className="col">
             <h5 className="text-center">Social</h5>
             <a

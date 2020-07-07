@@ -38,13 +38,6 @@ export default function MediaCard() {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Register
-        </Button>
-        <Link to="/Tournament">View More</Link>
-
-      </CardActions>
     </Card>
   );
 }
